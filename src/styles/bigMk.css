@@ -1,0 +1,140 @@
+.bigMk{
+    z-index : -99;
+    position: relative;
+    width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrows{
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    width: 1300px;
+    display: flex;
+}
+
+.arrow2{
+    margin-left: 1150px;
+    transform: rotate(180deg);
+}
+.cards{
+    width: 1115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: end;
+    column-gap: 70px;
+}
+
+.card{
+    box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset,
+    10px 10px 10px 2px rgba(34, 60, 80, 0.2);    background-color: #373235;
+    width: 305px;
+    height: 470px;
+    border-radius: 35px;
+    color: white;
+}
+
+.card h3{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card h4{
+    margin-top: 23px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+.description{
+    margin-top: 20px;
+}
+
+.card p{
+   margin-left: auto;
+   margin-right: auto;
+    font-family: "Comfortaa", sans-serif;
+    width: 250px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 350;
+    font-style: normal;
+}
+
+
+
+.Active{
+    width: 350px;
+    height: 540px;
+    box-shadow: #cdafc1 2px;
+}
+
+.Active h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Active p{
+    font-size: 16px;
+}
+
+
+
+.downCard{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Active .downCard{
+    margin-left: 40px;
+}
+
+.price{
+    margin-top: 20px;
+    width: 90px;
+    margin-left: 70px;
+    text-align: right;
+}
+
+.price p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.priceNone{
+    font-weight: normal;
+    color: red;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.price button{
+    white-space: 10px;
+    margin-top: 10px;
+    background-color: #191717;
+    text-transform: uppercase;
+    font-size: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+}

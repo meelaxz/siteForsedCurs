@@ -1,0 +1,33 @@
+.slogan{
+    margin-top: 50px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373235;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.logoSlogan img{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.slogan h2, h4{
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slogan h2{
+    padding-top: 50px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.slogan h4{
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
